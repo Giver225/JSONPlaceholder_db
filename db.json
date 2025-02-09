@@ -1,13 +1,25 @@
-{
-  "posts": [
     {
-      "id": 1,
-      "title": "hello"
+      "posts": [
+        {
+          "id": 1,
+          "title": "hello"
+        }
+      ],
+      "profile": {
+        "name": "typicode"
+      },
+      "todos": [
+        {
+          "id": 1,
+          "title": "Task 1",
+          "completed": false,
+          "user_id": 1
+        },
+        {
+          "id": 2,
+          "title": "Task 2",
+          "completed": true,
+          "user_id": 1
+        }
+      ]
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "todos": {
-  }
-}
